@@ -31,9 +31,12 @@
         android:textSize="70dp"
         android:textColor="#750000"
         android:fontFamily="@string/abc_activitychooserview_choose_application"
+        android:layout_marginTop="128dp"
+        android:background="#20ffffff"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"

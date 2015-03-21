@@ -2,12 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff5ff7a"
+    android:background="#80ffffff"
     android:id="@+id/"
     android:weightSum="1">
 
     <Button
-        android:layout_width="245dp"
+        android:layout_width="100%"
         android:layout_height="wrap_content"
         android:text="Wake The F**K Up!"
         android:id="@+id/button2"
@@ -15,11 +15,45 @@
         android:textColor="#ffffff"
         android:enabled="true"
         android:typeface="normal"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="115dp"
+        android:background="#ff0000"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="400dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:background="#ff0000" />
+        android:layout_alignParentEnd="true" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/textClock"
+        android:layout_centerHorizontal="true" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:textSize="50dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100%"
+        android:layout_height="wrap_content"
+        android:text="5 More Minutes Mom"
+        android:id="@+id/button3"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:enabled="true"
+        android:typeface="normal"
+        android:background="#ff0000"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
